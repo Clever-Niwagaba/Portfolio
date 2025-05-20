@@ -61,12 +61,12 @@ form button {
 }
 
 /* For the Hero Section */
-#home {
+/* #home {
     
     /* background: url('assets/images/hero.jpg'); */
     /* background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero-bg.jpg') no-repeat center center/cover; */
     /* color: var(--text); */
-}
+/* } */
 
 .hero {
     display: flex;
@@ -75,7 +75,7 @@ form button {
     justify-content: center;
     text-align: center;
     padding: 6rem 2rem;
-    background-image: url('assets/images/hero.jpg');
+    background:  url('../images/hero.jpg')  no-repeat center center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@ form button {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: 3px solid var(--accent);
+    /* border: 3px solid var(--accent); */
     object-fit: cover;
     margin-top: 2rem;
 }
